@@ -1,0 +1,14 @@
+class: "GradeClassifierTest"
+classifierModule: "neural_net_pacman"
+classifierClass: "NeuralNetClassifierPacman"
+
+automaticTuning: "True"
+featureFunction: "enhanced_feature_extractor_pacman"
+
+max_iterations: "100"
+
+datasetName: "contestData"
+
+exactOutput: "False"
+accuracyScale: "3"
+accuracyThresholds: "85"

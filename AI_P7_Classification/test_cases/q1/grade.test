@@ -1,0 +1,12 @@
+class: "GradeClassifierTest"
+classifierModule: "neural_net"
+classifierClass: "NeuralNetClassifier"
+
+max_iterations: "100"
+
+datasetName: "bigDigitData"
+
+# our solution: 95%
+exactOutput: "False"
+accuracyScale: "5"
+accuracyThresholds: "85"
