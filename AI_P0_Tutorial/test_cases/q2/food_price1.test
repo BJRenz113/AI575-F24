@@ -1,0 +1,7 @@
+class: "EvalTest"
+success: "buy_lots_of_fruit correctly computes the cost of the order"
+failure: "buy_lots_of_fruit must compute the correct cost of the order"
+
+# A python expression to be evaluated.  This expression must return the 
+# same result for the student and instructor's code.
+test: "buy_lots_of_fruit.buy_lots_of_fruit([ ('apples', 2.0), ('pears',3.0), ('limes',4.0) ])"
